@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* You can add any global overrides here */
+html, body, #__next {
+  height: 100%;
+}
+body {
+  background-color: #f8fafc; /* Tailwind gray-50 */
+}
